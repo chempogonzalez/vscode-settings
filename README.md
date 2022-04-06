@@ -2,6 +2,7 @@
 
 [`.vscode/settings.json`](./.vscode/settings.json)<br>
 [`.vscode/extensions.json`](./.vscode/extensions.json)
+[`.vscode/typescriptreact.code-snippets`](./.vscode/typescriptreact.code-snippets)
 
 
 <br>
