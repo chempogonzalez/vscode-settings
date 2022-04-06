@@ -1,0 +1,85 @@
+{
+  "recommendations": [
+    // Theme & icons -----------------------------------
+    "zhuangtongfa.material-theme",
+    "PKief.material-icon-theme",
+    "antfu.icons-carbon",
+    "file-icons.file-icons",
+
+    // TOTALLY NEEDED -----------------------------------
+    // Spanish language for VSCode
+    "MS-CEINTL.vscode-language-pack-es",
+    // ESLint
+    "dbaeumer.vscode-eslint",
+    // Highlight errors inline
+    "usernamehw.errorlens",
+    // Check spells in constants and naming
+    "streetsidesoftware.code-spell-checker",
+    "streetsidesoftware.code-spell-checker-spanish",
+    // Autocomplete paths
+    "christian-kohler.path-intellisense",
+    // Autocomplete npm packages imports
+    "christian-kohler.npm-intellisense",
+    // Highlight syntax for .env files
+    "mikestead.dotenv",
+    // Pair-programming
+    "ms-vsliveshare.vsliveshare",
+    // EditorConfig to be aligned with other IDEs
+    "EditorConfig.EditorConfig",
+    // Better comments highlighting
+    "aaron-bond.better-comments",
+    // Rename automatically tag (open-close tags)
+    "formulahendry.auto-rename-tag",
+    // Close automatically tag just with open
+    "formulahendry.auto-close-tag",
+    // Emoji search
+    "bierner.emojisense",
+     // Auto-import TS files
+    "pmneo.tsimporter",
+    // Check package versions
+    "pflannery.vscode-versionlens",
+
+
+
+    // ------------------------------------------------
+    // Angular
+    "Angular.ng-template",
+    // Add bookmarks to jump between lines quicker
+    "alefragnani.Bookmarks",
+    // Snapshot of portion of code
+    "adpyke.codesnap",
+    // Highlight CSS color code
+    "naumovs.color-highlight",
+    // Docker
+    "ms-azuretools.vscode-docker",
+    // Git
+    "donjayamanne.githistory",
+    "eamodio.gitlens",
+    "GitHub.vscode-pull-request-github",
+    // GraphQL
+    "GraphQL.vscode-graphql",
+    // HTML
+    "abusaidm.html-snippets",
+    // Cost of importing package
+    "wix.vscode-import-cost",
+    // CSS autocomplete
+    "Zignd.html-css-class-completion",
+    // Lit-HTML
+    "bierner.lit-html",
+    // Better Markdown
+    "yzhang.markdown-all-in-one",
+    // MDX syntax
+    "silvenon.mdx",
+    // NX console
+    "nrwl.angular-console",
+    // PostCSS
+    "vunguyentuan.vscode-postcss",
+    // StreamDeck
+    "nicollasr.vscode-streamdeck",
+    // SVG visualizer
+    "jock.svg",
+    // TailwindCSS
+    "bradlc.vscode-tailwindcss",
+
+  ]
+}

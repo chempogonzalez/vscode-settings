@@ -1,0 +1,114 @@
+{
+  // Editor
+  "editor.accessibilitySupport" : "off",
+  "editor.fontFamily" : "Fira Code",
+  "editor.fontLigatures": true,
+  "editor.tabSize": 2,
+  "editor.formatOnSave": false,
+  "editor.bracketPairColorization.enabled": true,
+  "editor.renderWhitespace": "boundary",
+  "editor.cursorSmoothCaretAnimation": true,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": false,
+    "source.fixAll.eslint": true
+  },
+
+  "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.editor.closeOnFileDelete": true,
+  "workbench.editor.highlightModifiedTabs": true,
+  "workbench.fontAliasing": "antialiased",
+  "workbench.list.smoothScrolling": true,
+  "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
+  "workbench.iconTheme": "material-icon-theme",
+  "workbench.tree.indent": 12,
+
+  "terminal.integrated.cursorBlinking": true,
+  "terminal.integrated.cursorStyle": "line",
+  "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+
+  "window.nativeTabs": true,
+  "window.autoDetectColorScheme": true,
+
+  "extensions.autoUpdate": "onlyEnabledExtensions",
+
+  "files.eol": "\n",
+  "files.insertFinalNewline": true,
+
+  "git.autofetch": true,
+  "git.untrackedChanges": "separate",
+  
+  "diffEditor.ignoreTrimWhitespace": false,
+  "search.exclude": {
+    "**/.git": true,
+    "**/.github": true,
+    "**/.next": true,
+    "**/.output": true,
+    "**/dist/**": true,
+    "**/package-lock.json": true,
+    "**/pnpm-lock.yaml": true,
+    "**/tmp": true,
+    "**/yarn-lock.json": true
+  },
+
+  "emmet.showSuggestionsAsSnippets": true,
+
+
+
+
+  // -------------- Extensions --------------------
+  //    - ESLint
+  "eslint.codeAction.showDocumentation": {
+    "enable": true
+  },
+
+  //    - Code Spell Checker
+  "cSpell.language": "en-GB,es",
+  "cSpell.ignoreRegExpList": [
+    "pre\\w+"
+  ],
+  "cSpell.userWords": [
+    "chempo",
+    "Chempo",
+    "codegen",
+    "codegens",
+    "commitlint",
+    "copyfiles",
+    "deepmerge",
+    "defaultify",
+    "didomi",
+    "Didomi",
+    "ecommerce",
+    "execa",
+    "Fira",
+    "hocs",
+    "linebreak",
+    "melia",
+    "Melia",
+    "Meliá",
+    "modernizr",
+    "multifactor",
+    "Multifactor",
+    "nextgen",
+    "nextjs",
+    "predev",
+    "recaptcha",
+    "rpin"
+  ],
+
+  //    - Error Lens
+  "errorLens.delay": 500,
+  "errorLens.fontSize": "0.8em",
+  "errorLens.fontStyleItalic": true,
+  "errorLens.messageTemplate": "$source --- $message",
+  "errorLens.messageBackgroundMode": "message",
+  "errorLens.gutterIconsEnabled": true,
+  "errorLens.statusBarIconsEnabled": true,
+  "typescript.inlayHints.parameterNames.enabled": "all",
+  "javascript.inlayHints.parameterNames.enabled": "all",
+  "workbench.productIconTheme": "icons-carbon",
+  "terminal.integrated.fontFamily": "Fira Code",
+  
+}
