@@ -1,7 +1,7 @@
 <samp><b>Chempo's VS Code Settings</b></samp>
 
 [`.vscode/settings.json`](./.vscode/settings.json)<br>
-[`.vscode/extensions.json`](./.vscode/extensions.json)
+[`.vscode/extensions.json`](./.vscode/extensions.json)<br>
 [`.vscode/typescriptreact.code-snippets`](./.vscode/typescriptreact.code-snippets)
 
 
