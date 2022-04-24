@@ -37,10 +37,14 @@
     "pmneo.tsimporter",
     // Check package versions
     "pflannery.vscode-versionlens",
+    // Github Copilot
+    "GitHub.copilot",
 
 
 
     // ------------------------------------------------
+    // Astro
+    "astro-build.astro-vscode",
     // Angular
     "Angular.ng-template",
     // Add bookmarks to jump between lines quicker
@@ -79,6 +83,10 @@
     "jock.svg",
     // TailwindCSS
     "bradlc.vscode-tailwindcss",
+    // Fig autocomplete for terminal
+    "withfig.fig",
+    // XML
+    "redhat.vscode-xml"
 
   ]
 }
