@@ -1,19 +1,23 @@
 {
-  // Editor
+  // Editor ___________________________________________________________________
   "editor.accessibilitySupport" : "off",
   "editor.fontFamily" : "Fira Code",
   "editor.fontLigatures": true,
   "editor.tabSize": 2,
+  "editor.insertSpaces": true,
+  "editor.detectIndentation": false,
   "editor.formatOnSave": false,
   "editor.bracketPairColorization.enabled": true,
   "editor.renderWhitespace": "boundary",
   "editor.cursorSmoothCaretAnimation": true,
+  "editor.linkedEditing": true,
   "editor.codeActionsOnSave": {
     "source.fixAll": false,
     "source.fixAll.eslint": true
   },
 
   "workbench.colorTheme": "One Dark Pro Darker",
+  "workbench.productIconTheme": "icons-carbon",
   "workbench.editor.closeOnFileDelete": true,
   "workbench.editor.highlightModifiedTabs": true,
   "workbench.fontAliasing": "antialiased",
@@ -21,10 +25,15 @@
   "workbench.preferredDarkColorTheme": "One Dark Pro Darker",
   "workbench.iconTheme": "material-icon-theme",
   "workbench.tree.indent": 12,
+  "workbench.editor.limit.enabled": true,
+  "workbench.editor.limit.perEditorGroup": true,
+  "workbench.editor.limit.value": 5,
+
 
   "terminal.integrated.cursorBlinking": true,
   "terminal.integrated.cursorStyle": "line",
   "terminal.integrated.fontWeight": "300",
+  "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.env.osx": {
     "FIG_NEW_SESSION": "1"
   },
@@ -54,11 +63,14 @@
   },
 
   "emmet.showSuggestionsAsSnippets": true,
+  "css.lint.unknownAtRules": "ignore",
+  "scss.lint.unknownAtRules": "ignore",
+  // _____________________________________________________________________________
 
 
 
 
-  // -------------- Extensions --------------------
+  // -------------- Extensions ----------------------------------------------------
   //    - ESLint
   "eslint.codeAction.showDocumentation": {
     "enable": true
@@ -70,12 +82,17 @@
     "pre\\w+"
   ],
   "cSpell.userWords": [
+    "astrojs",
+    "CHECKIN",
     "chempo",
     "Chempo",
     "codegen",
     "codegens",
     "commitlint",
     "copyfiles",
+    "crazit",
+    "daisyui",
+    "DATALAYER",
     "deepmerge",
     "defaultify",
     "didomi",
@@ -95,7 +112,16 @@
     "nextjs",
     "predev",
     "recaptcha",
-    "rpin"
+    "rpin",
+    "tailwindcss"
+  ],
+  "cSpell.allowedSchemas": [
+    "file",
+    "gist",
+    "sftp",
+    "untitled",
+    "vscode-notebook-cell",
+    "file!package.json"
   ],
 
   //    - Error Lens
@@ -108,7 +134,23 @@
   "errorLens.statusBarIconsEnabled": true,
   "typescript.inlayHints.parameterNames.enabled": "all",
   "javascript.inlayHints.parameterNames.enabled": "all",
-  "workbench.productIconTheme": "icons-carbon",
-  "terminal.integrated.fontFamily": "Fira Code",
+  "auto-close-tag.disableOnLanguage": [
+    "typescript"
+  ],
+
+  //    - PostCSS
+  "postcss.validate": false,
+
+  //    - XML
+  "redhat.telemetry.enabled": false,
+  "editor.inlineSuggest.enabled": true,
   
+  //    - Copilot
+  "github.copilot.inlineSuggest.enable": true,
+  "github.copilot.enable": {
+    "*": true,
+    "markdown": true,
+    "plaintext": false,
+    "yaml": false
+  },
 }
