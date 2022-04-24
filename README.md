@@ -1,9 +1,16 @@
-<samp><b>Chempo's VS Code Settings</b></samp>
+<samp><b>Chempo's VS Code Settings (global)</b></samp>
 
 [`.vscode/settings.json`](./.vscode/settings.json)<br>
 [`.vscode/extensions.json`](./.vscode/extensions.json)<br>
 [`.vscode/typescriptreact.code-snippets`](./.vscode/typescriptreact.code-snippets)
 
+
+<br>
+
+<samp><b>Chempo's VS Code Settings (for projects)</b></samp>
+
+[`.vscode/settings.json`](./.vscode-for-projects/settings.json)<br>
+[`.editorconfig`](./.editorconfig) (for other IDEs)
 
 <br>
 
