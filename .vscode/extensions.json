@@ -83,8 +83,8 @@
     "jock.svg",
     // TailwindCSS
     "bradlc.vscode-tailwindcss",
-    // Fig autocomplete for terminal
-    "withfig.fig",
+    // YAML
+    "redhat.vscode-yaml",
     // XML
     "redhat.vscode-xml"
 
