@@ -8,6 +8,7 @@
   "editor.detectIndentation": false,
   "editor.formatOnSave": false,
   "editor.bracketPairColorization.enabled": true,
+  "editor.guides.bracketPairs": true,
   "editor.renderWhitespace": "boundary",
   "editor.cursorSmoothCaretAnimation": true,
   "editor.linkedEditing": true,
@@ -48,7 +49,7 @@
 
   "git.autofetch": true,
   "git.untrackedChanges": "separate",
-  
+
   "diffEditor.ignoreTrimWhitespace": false,
   "search.exclude": {
     "**/.git": true,
@@ -144,7 +145,7 @@
   //    - XML
   "redhat.telemetry.enabled": false,
   "editor.inlineSuggest.enabled": true,
-  
+
   //    - Copilot
   "github.copilot.inlineSuggest.enable": true,
   "github.copilot.enable": {
@@ -152,5 +153,5 @@
     "markdown": true,
     "plaintext": false,
     "yaml": false
-  },
+  }
 }
